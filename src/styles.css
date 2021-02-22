@@ -1,0 +1,271 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(61, 146, 201);
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+h3 {
+  font-weight: 100;
+}
+
+.pure-img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+#layout {
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  top: auto;
+  margin: 3em auto;
+}
+
+.sidebar {
+  background: rgb(61, 79, 93);
+  color: #fff;
+}
+
+.brand-title,
+.brand-tagline {
+  margin: 0;
+}
+.brand-title {
+  text-transform: uppercase;
+}
+.brand-tagline {
+  font-weight: 300;
+  color: rgb(176, 202, 219);
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-item {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+.nav-item a {
+  background: transparent;
+  border: 2px solid rgb(176, 202, 219);
+  color: #fff;
+  margin-top: 1em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 85%;
+}
+.nav-item a:hover,
+.nav-item a:focus {
+  border: 2px solid rgb(61, 146, 201);
+  text-decoration: none;
+}
+
+.nav-item.author a {
+  color: rgb(57, 155, 201);
+  font-weight: bold;
+}
+
+.content-subhead {
+  text-transform: uppercase;
+  color: #aaa;
+  border-bottom: 1px solid #eee;
+  padding: 0.4em 0;
+  font-size: 80%;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.content {
+  padding: 2em 1em 0;
+}
+
+.post {
+  padding-bottom: 2em;
+}
+.post-title {
+  font-size: 2em;
+  color: #222;
+  margin-bottom: 0.2em;
+}
+
+.post-title-link {
+  text-decoration: none;
+  color: rgb(117, 114, 114);
+}
+.post-title-link:hover,
+.post-title-link:focus {
+  text-decoration: underline;
+}
+
+.post-avatar {
+  border-radius: 50px;
+  float: right;
+  margin-left: 1em;
+}
+.post-description {
+  font-family: Georgia, "Cambria", serif;
+  color: #444;
+  line-height: 1.8em;
+}
+.post-meta {
+  color: #999;
+  font-size: 90%;
+  margin: 0;
+}
+
+.post-main-img {
+  padding-top: 1em;
+  margin: 0 auto;
+}
+
+.post-category {
+  margin: 0 0.1em;
+  padding: 0.3em 1em;
+  color: #fff;
+  background: #999;
+  font-size: 80%;
+}
+.post-category-design {
+  background: #5aba59;
+}
+.post-category-pure {
+  background: #4d85d1;
+}
+.post-category-yui {
+  background: #8156a7;
+}
+.post-category-js {
+  background: #df2d4f;
+}
+
+.post-images {
+  margin: 1em 0;
+}
+.post-image-meta {
+  margin-top: -3.5em;
+  margin-left: 1em;
+  color: #fff;
+  text-shadow: 0 1px 1px #333;
+}
+
+.footer {
+  padding: 1em 0;
+  text-align: center;
+}
+.footer a {
+  color: #ccc;
+  font-size: 80%;
+}
+.footer .pure-menu a:hover,
+.footer .pure-menu a:focus {
+  background: none;
+}
+
+.author-tables,
+.information {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.author-tables {
+  margin-bottom: 3.125em;
+  text-align: center;
+}
+
+.author-table {
+  border: 1px solid #ddd;
+  margin: 0 0.5em 2em;
+  padding: 0 0 3em;
+}
+
+.author-table-free .author-table-header {
+  background: #519251;
+}
+
+.author-table-biz .author-table-header {
+  background: #2c4985;
+}
+
+.author-table-header {
+  background: #111;
+  color: #fff;
+}
+.author-table-header h2 {
+  margin: 0;
+  padding-top: 2em;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.author-table-price {
+  font-size: 6em;
+  margin: 0.2em 0 0;
+  font-weight: 100;
+}
+.author-table-price span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.2em;
+  padding-bottom: 2em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  *color: #fff;
+}
+
+.author-table-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.author-table-list li {
+  padding: 0.8em 0;
+  background: #f7f7f7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.button-choose {
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+  border-radius: 2em;
+  font-weight: bold;
+  position: relative;
+  bottom: -1.5em;
+}
+
+@media (min-width: 48em) {
+  .content {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .header {
+    margin: 5% 2em 2em;
+    text-align: right;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 767px) {
+  .author-table {
+    margin-bottom: 0;
+  }
+}
