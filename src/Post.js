@@ -92,15 +92,13 @@ const Post = ({ post: prefetchedPost }) => {
   } = prefetchedPost || post;
 
   // Load images based on the author's name:
-  // here we are dynamically creating a path to the image
-  // require() returns a string referencing the image's location
   let avatar;
   try {
-    avatar = require(`./img/${name}.jpeg`);
+    avatar = `https://raw.githubusercontent.com/MyElectricSheep/contentful-blog-correction/main/src/img/${name}.jpeg`;
   } catch {
     // If the required image does not exist, it will throw
     // an error, which we catch here to display a generic avatar
-    avatar = require(`./img/unknown.jpg`);
+    avatar = `https://raw.githubusercontent.com/MyElectricSheep/contentful-blog-correction/main/src/img/unknown.jpeg`;
   }
 
   if (!content) {
