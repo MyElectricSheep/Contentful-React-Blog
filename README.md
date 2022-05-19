@@ -18,5 +18,5 @@ Using Contentful as a back-end (data model + content + APIs) and React as the fr
 
 ### 🚀 Live version:
 
-A live version of the app [can be found here](https://yummy-tech-recipes.netlify.app/)
-A Codesandbox of the app [can be played with here](https://codesandbox.io/s/contentful-blog-correction-f57mb?file=/src/App.js)
+- A live version of the app [can be found here](https://yummy-tech-recipes.netlify.app/)
+- A Codesandbox of the app [can be played with here](https://codesandbox.io/s/contentful-blog-correction-f57mb?file=/src/App.js)
