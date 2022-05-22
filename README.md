@@ -2,7 +2,7 @@
 
 This app was created as teaching support material to introduce students to the concept of **Headless CMS**. 
 
-Using Contentful as a back-end (data model + content + APIs) and React as the front-end, the idea was to create a tech fictitious tech blog.
+Using Contentful as a back-end (data model + content + APIs) and React as the front-end, the idea was to create a fictitious tech blog.
 
 ![Yummy Tech Recipes](https://raw.githubusercontent.com/MyElectricSheep/Contentful-React-Blog/main/yummy.png)
 
